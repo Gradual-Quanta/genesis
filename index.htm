@@ -1,0 +1,32 @@
+---
+layout: home
+# vim: nospell
+---
+
+<div class="content first">
+{% capture header %}
+# {{site.title}}
+> {% include quote.txt %}
+{% endcapture %}
+{{ header | markdownify }}
+</div><br><div class="content">
+{% capture readme %}
+{% include README.md %}
+{% endcapture %}
+{{ readme | markdownify }}
+</div><br><div class="content qm">
+{% capture qm %}
+{% assign qm = site.data.qm.qm[-1] %}
+{% if qm == 'z6cYNbecZSFzLjbSimKuibtdpGt7DAUMMt46aKQNdwfs' %}
+{{site.data.qm.name}}: qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}})
+{% else %}
+{{site.data.qm.name}}: qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}}/index.htm)
+{% endif %}
+{% endcapture %}
+{{ qm | markdownify }}
+</div><br><div class="footer">
+
+{% capture footer %} {% include footer.md %} {% endcapture %} {{ footer | markdownify }}
+</div>
+
+

@@ -1,0 +1,71 @@
+body {
+  background-image: linear-gradient(to bottom right, black,blue);
+  background-image: URL(https://cdn.statically.io/img/cloudflare-ipfs.com/ipfs/uAXAANRIvChgBcBEUfxf2_wm89ICjsZg45QZJFln7MOASD2Jva2VoLXd5bWliLmpwZxj5hAkKAggB/bokeh-wymib.jpg);
+  background-size: cover;
+  /* min-height: 100%; */
+  color: #546;
+}
+#panel {
+ opacity: 0.9;
+}
+
+a:link { color: grey; }
+a:hover { color: hotpink; }
+a:visited { color: #26B; }
+a:active { color: blue; }
+
+#first,.first {
+ opacity: 0.46;
+ color: white !important;
+ position: sticky !important;
+ margin-top: 18px;
+ margin-bottom: 1px;
+ /* right: 50%; margin-right: -382px; */
+
+ /*
+ z-index: -10;
+ bottom: -200px;
+ background: lightpink;
+ background: rgb(220,200,240);
+ */
+}
+
+div {
+ color: black;
+ /*
+ background-image: linear-gradient(to bottom left, white,lightpink);
+ opacity: 0.46;
+ background: orange;
+ border-radius: 8px;
+  */
+ padding: 0em;
+ box-shadow: none;
+ font-size: 24px;
+ text-align: justify;
+}
+
+div.content {
+ opacity: 0.96;
+ color: black; background: lightpink; opacity: 1.0; 
+ background-image: linear-gradient(to bottom left, lightgreen,white);
+
+ position: relative;
+ max-width: 740px;
+ margin-left: 100px;
+ margin: auto;
+
+
+ width: 100%;
+ padding: 1em;
+
+  border-radius: 4px;
+  box-shadow:2px 20px 10px rgba(0, 0, 0, 0.40);
+}
+
+
+pre { overflow: auto }
+
+img { max-width: 95%; max-height: 720px; margin: auto;} 
+
+
+

@@ -1,0 +1,30 @@
+# Site settings
+# vim: nospell
+port: 4000
+output: _dist
+businame: blockring
+title: BlockRing™ Genesis Site
+description: The Genesis  website !
+email: michelc@genesis.tk
+baseurl: ""
+url: "//genesis-block.ml" # the base hostname & protocol for your site
+
+netname: competent-euclid-999dce
+dev_url: "http://localhost:8088/web/genesis/_site" # the base hostname & protocol for your site
+# directly drap-n-drop _site to netlify
+# in production deploys section [*](https://app.netlify.com/sites/competent-euclid-999dce/deploys?filter)
+netbadge: 7d9c5547-8cc2-45e4-8f9d-30a6d9969701
+neturl: "//competent-euclid-999dce.netlify.com/"
+
+search_url: "//duckduckgo.com/?q"
+googledocid: 1VfERUZ8oTEGlCT3Xn37yK1TOsYxFZuJryNNR7bhJdUM
+framaid: genesis
+
+exclude:
+ - .org
+ - _site
+ - this.desktop
+ - Gemfile
+ - Gemfile.lock
+ - travis.sh
+ - publish.sh
