@@ -6,11 +6,11 @@
 <meta http-equiv="Origin" content="{{ site.url }}"/>
 <meta charset="utf8">
 <link rel="icon" href="https://cdn.statically.io/favicons/gc-bank.org" type="image/png">
-<link href="https://cdn.jsDelivr.net/gh/iglake/cssjs@v1.3/css/style.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsDelivr.net/gh/iglake/cssjs@v1.4/css/style.css" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css" media="all">
 <!--
 <link href="https://cdn.statically.io/gh/iglake/cssjs/master/css/style.css" rel="stylesheet" type="text/css">
-<link href="https://cdn.jsDelivr.net/gh/iglake/cssjs@v1.3/css/style.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsDelivr.net/gh/iglake/cssjs@v1.6/css/style.css" rel="stylesheet" type="text/css">
 -->
 <style>
 body {
@@ -20,3 +20,7 @@ body {
 </head><body>
 {{ content }}
 </body>
+
+<script src="https://cdn.jsDelivr.net/gh/iglake/js@v1.6/dist/dns.js" type="text/javascript"></script>
+<script src="https://cdn.jsDelivr.net/gh/iglake/js@v1.6/dist/config.js" type="text/javascript"></script>
+<script> DNS.Query('_json.'+domain,'TXT', callback('body')) </script>
