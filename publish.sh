@@ -1,7 +1,7 @@
 #
 
 #set -e
-find . -name \*.org -delete
+find . -name \*.\*~\* -delete
 #curl -s https://www.genesis-block.ml | pandoc -t json | xjson blocks.29.c.1.1.c.4.c
 
 echo "--- # ${0##*/}"

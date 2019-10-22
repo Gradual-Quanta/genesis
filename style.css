@@ -67,5 +67,7 @@ pre { overflow: auto }
 
 img { max-width: 95%; max-height: 720px; margin: auto;} 
 
+.footer { max-width: none }
+
 
 

@@ -26,9 +26,18 @@ layout: home
 <br>qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}}/index.htm)
 {% endif %}
 {% endcapture %}
+<!--
+<br>![{{qm}}](https://placebeard.it/1200x600)
+<br>![{{qm}}](https://via.placeholder.com/1200x300)
+<br>![{{qm}}](https://dummyimage.com/1200x300/fae/a0a)
+
+<br>![{{qm}}](https://placekitten.com/1200/300)
+<br>![{{qm}}](https://loremflickr.com/1200/360)
+<br>![{{qm}}](http://lorempixel.com/1200/300)
+<br>![{{qm}}](http://placeimg.com/1200/300/any)
+ -->
 {{ qm | markdownify }}
 </div><br><div class="footer">
-
 {% capture footer %} {% include footer.md %} {% endcapture %} {{ footer | markdownify }}
 </div>
 
