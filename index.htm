@@ -5,7 +5,7 @@ layout: home
 
 <div class="content first">
 {% capture header %}
-# {{site.title}}
+# {{site.title}} {% if jekyll.environment != 'production' %}Development{% endif %}
 > {% include quote.txt %}
 {% endcapture %}
 {{ header | markdownify }}
