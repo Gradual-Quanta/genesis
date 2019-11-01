@@ -21,7 +21,7 @@ layout: home
 {{site.data.qm.name}}: qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}})
 {% else %}
 {{site.data.qm.name}}:
-\*bot: {{site.data.qm.bot}}
+\*bot: {{site.data.qm.bot}} ({{ site.time | date: '%Y/%m/%d' }})
 <br>![{{qm}}](https://picsum.photos/seed/{{qm}}/1200/300)
 <br>qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}}/index.htm)
 {% endif %}
