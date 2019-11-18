@@ -4,7 +4,9 @@
 This is the Genesis block for all BlockRing™ websites :
  [{{ site.url }}]({{site.url}})
 
-![{{qm}}](https://placebeard.it/1200x600)
+use {{site.data.qn.next}} for you blockchain initial hash 
+
+![{{site.data.qm.qm[-1]}}](https://placebeard.it/1200x600)
 
 <small>*note: this site is deployed on [netlify][nl] on %date%</small>
 <hr>
