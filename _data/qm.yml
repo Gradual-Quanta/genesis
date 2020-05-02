@@ -1,9 +1,9 @@
 --- # genesis blockRing™
 name: genesis
-tic: 1588442189
-bot: Ava E. Demmel
-bafy: bafybeiaeslpgcu6y7n7olcrel52doz54fuizbhniu6j67ttbconav4rwiq
-next: QmQ158xkXCRMwzY51yRRHLY14zc2kmajbB1eouReiay6Uc
+tic: 1588442685
+bot: Kari D. Hoepfner
+bafy: bafybeignsxghg7koslu4ltqftomxgdf4s4alkndb2nh6ihomlt5sum3shi
+next: QmQeHNDnA5PbhAfvpytVwbCKMzKJsrcRKyxodbmNXgwniH
 qm:
  - z6cYNbecZSFzLjbSimKuibtdpGt7DAUMMt46aKQNdwfs
  - QmaRti3Bt9QTDQ9hYk91KVNC6jZjSJv3t6HAoQ4WkyRsEd
@@ -33,3 +33,4 @@ qm:
  - Qmf568oL9wtx36aBHxPrpa2hvmEXmAxsh9YYNdKt3dJZNr
  - Qmbf2vQebuXFUAaZWTKnNaaoe7dzh5CPdTuuf25twLGUwd
  - QmNfNG11QQRBBM15NzMQu25nLTvnkUAsXeqx3D9rhT2kpk
+ - QmWiUofyvcakbb1NTx3zu7MLjYRDmgrVatBhCwGyj4cNLY
