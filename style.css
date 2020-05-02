@@ -42,6 +42,8 @@ div {
  box-shadow: none;
  font-size: 24px;
  text-align: justify;
+ text-align-last: left;
+ 
 }
 
 div.content {

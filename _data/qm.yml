@@ -1,10 +1,8 @@
 --- # genesis blockRing™
 name: genesis
-tic: 1588449205
-bot: Lina M. Laro
-bafy: bafybeia24h3an4o6wgwxb43r6nevqcbxzzbnmhbevii33c4z3sui3ictf4
-next: QmQ9b9hT4f6u2rHgZ1cc9EQTstVqstA8PbU362FKErXWSJ
+tic: epoch
+bot: ""
+bafy: ~
+next: ~
 qm:
  - z6cYNbecZSFzLjbSimKuibtdpGt7DAUMMt46aKQNdwfs
- - QmRftKXPyEbhDXcLVfKhDbjzVG5Y9XKFwGWCDfAG5E71BU
- - Qmef8HAuNUjXeqSBUBsXYZq2SopbYv6oWtVqJhCKwB7e5F

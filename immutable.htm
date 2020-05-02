@@ -5,11 +5,11 @@ title: immutable block
 {% assign qm = site.data.qm.qm[-1] %}
 {% capture immutable %}
 {% if qm == 'z6cYNbecZSFzLjbSimKuibtdpGt7DAUMMt46aKQNdwfs' %}
-{{site.data.qm.name}}: qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}})
+{{site.data.qm.name}} block<sup>{{site.data.n.n}}</sup>:<br>qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}})
 {% else %}
 {{site.data.qm.name}}:
-\*bot: {{site.data.qm.bot}} ({{ site.time | date: '%Y/%m/%d' }})
-<br>![{{qm}}](https://picsum.photos/seed/{{qm}}/1200/300)
+\*bot: {{site.data.qm.bot}} ({{ site.time | date: '%Y/%m/%d' }} block<sup>{{site.data.n.n}}</sup>)
+<br>![{{qm}} block {{site.data.n.n}}](https://picsum.photos/seed/{{qm}}/1200/300)
 <br>qm=[{{qm}}](http://127.0.0.1:8080/ipfs/{{qm}}/immutable.htm)
 {% endif %}
 {% endcapture %}
