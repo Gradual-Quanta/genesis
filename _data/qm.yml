@@ -1,9 +1,9 @@
 --- # genesis blockRing™
 name: genesis
-tic: 1588439462
+tic: 1588439621
 bot: Anthony M. Legard
-bafy: bafybeigti4s3bs3jso6wthmkfley6zl7gi74hlv2zrbpziodubqedqmz4m
-next: QmeSZCc3RYMMf6sfQyfso7Fy51WuG26StAkPmpMmbaNB4f
+bafy: bafybeihphy7t2in4w7thqgebjw2l4nm4upxmf7a4u6lmztj5xpusd4hd2q
+next: QmYYGe88E7vpScXybJb58N3CQmEHWwWhuuoZuWwe2ATJZ4
 qm:
  - z6cYNbecZSFzLjbSimKuibtdpGt7DAUMMt46aKQNdwfs
  - QmaRti3Bt9QTDQ9hYk91KVNC6jZjSJv3t6HAoQ4WkyRsEd
@@ -28,3 +28,4 @@ qm:
  - QmfKNcQkwWp1c584hRzvB7omjeUsBVwNL6VP4NZswekBxs
  - QmPsKFMigKVvw3tQZWQeQBWaodXsiQ9oQFCV17fPceUXzN
  - QmdEYpJ9VYacFH178cF9h4RWMUor5VoUyCc94VhwA9nr1r
+ - QmbTU7D2CrSJc4CGmWGXv3u2Fw6PazTTDZjSCePiN4hZQc
